@@ -35,8 +35,8 @@ const AddItem = () => {
         <Typography align="center" variant="h2">
           My To-Do List
         </Typography>
-        <Grid container spacing={1} style={{ marginTop: 10 }}>
-          <Grid container item xs={9} sm={10} md={10} lg={11}>
+        <Grid container spacing={1} className={classes.listSpacing}>
+          <Grid item xs={9} sm={10} md={10} lg={11}>
             <TextField
               color="secondary"
               autoComplete="false"
@@ -46,14 +46,14 @@ const AddItem = () => {
               variant="outlined"
               value={taskItem}
               onChange={handleChange}
-            ></TextField>
+            />
           </Grid>
-          <Grid container item xs={3} sm={2} md={2} lg={1}>
+          <Grid item xs={3} sm={2} md={2} lg={1}>
             <Button
               fullWidth
               variant="outlined"
               color="secondary"
-              style={{ padding: 15 }}
+              className={classes.buttonSize}
               onClick={submitTask}
             >
               Add

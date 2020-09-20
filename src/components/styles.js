@@ -6,6 +6,12 @@ const styles = makeStyles({
     margin: "50px auto",
     padding: 32,
   },
+  listSpacing: {
+    marginTop: 20,
+  },
+  buttonSize: {
+    padding: 15,
+  },
 });
 
 export default styles;
