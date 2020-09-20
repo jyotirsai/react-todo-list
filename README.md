@@ -3,3 +3,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Basic To-Do list app made with React and Material UI. Clone the project and run `npm install` to install all the packages in the package.json file. Run `npm start` to start the server.
 
 <img src="todolist.PNG">
+
+Select the Add button to add a task to the list and the garbage icon to delete a task.
